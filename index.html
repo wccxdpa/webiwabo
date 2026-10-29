@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilos.css"></link>
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="col text-center">
+                <h1>Ejemplo de cola</h1>
+            </div>
+        </div>
+        <div class="row mt-5 border">
+            <div class="col border text-center" id="e1">
+            ___
+            </div>
+            <div class="col border text-center" id="e2">
+            ___
+            </div>
+            <div class="col border text-center" id="e3">
+            ___
+            </div>
+            <div class="col border text-center" id="e4">
+            ___
+            </div>
+            <div class="col border text-center" id="e5">
+            ___
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+            5
+            </div>
+            <div class="col text-center">
+            4
+            </div>
+            <div class="col text-center">
+            3
+            </div>
+            <div class="col text-center">
+            2
+            </div>
+            <div class="col text-center">
+            1
+            </div>
+        </div>
+        <!-- Botones -->
+        <div class="row mt-5 text-center ">
+            <div class="col-3"></div>
+            <div class="col-3">
+                <button id="esperar" class="btn btn-danger btn-lg" onclick="ejecutarEsperar()">Esperar</button>
+            </div>
+            <div class="col-3">
+                <button id="atender" class="btn btn-success btn-lg" onclick="ejecutarAtender()">Atender</button>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+    <script src="sistematurnos.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
